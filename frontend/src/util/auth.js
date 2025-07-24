@@ -4,3 +4,7 @@ export function getAuthToken(){
     return token;
 
 }
+
+export function tokenLoader(){
+    return getAuthToken();
+}   
